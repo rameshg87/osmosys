@@ -1,0 +1,2 @@
+losetup -o 1073479680 /dev/loop1 ../disk.img 
+

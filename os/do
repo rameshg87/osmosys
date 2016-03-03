@@ -1,0 +1,5 @@
+sudo mount /dev/sda1 
+sudo cp binary/kernel /media/sda1/osmosys/
+sudo umount /media/sda1/
+sudo partprobe /dev/sda
+sudo qemu /dev/sda -d in_asm

@@ -1,0 +1,6 @@
+make smldr
+sudo umount misc
+sudo make istage3
+sudo partprobe /dev/sda
+sudo umount misc
+sudo qemu /dev/sda -d in_asm

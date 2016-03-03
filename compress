@@ -1,0 +1,14 @@
+filename=osmosys`date +%02d%02m%02y%02H%02M%02S`.tar
+rm -rf smldr/cpp/*~
+rm -rf smldr/include/*~
+rm -rf smldr/asm/*~
+rm -rf smldr/*.o
+rm -rf os/cpp/*~
+rm -rf os/include/*~
+rm -rf os/asm/*~
+rm -rf os/*.o
+rm -rf os/logged.txt
+rm -rf smldr/logged.txt
+tar -cf $filename os smldr compress apps
+bzip2 $filename
+echo "compressed file($filename.bz2) created"

@@ -1,0 +1,53 @@
+BOOTLOADER CHANGELOG
+**********
+
+smldr/asm/stage1.s - 
+v1.0 - 24/01/09
+
+
+smldr/asm/stage2.s - 
+v1.0 - 24/01/09
+
+
+smldr/asm/stage3.s -
+v1.0 - 24/01/09
+
+
+smldr/cpp/common.cpp
+smldr/include/common.h
+
+v1.4 - 24/01/09
+	-	outport and inport functions
+	-	integer returns from char buffer
+	-	string handling functions
+	-	memory handling functions
+
+
+smldr/cpp/filesys.cpp
+smldr/include/filesys.h
+
+v1.1 - 24/01/09
+	-	read from fat 32 partitions
+	- 30/01/09
+		made a small change in return_partition_lba
+smldr/cpp/idt.cpp
+smldr/include/idt.h
+
+v1.2 - 24/01/09
+	-	interrupt handler functions for timer
+	-	interrupt handler for keyboard
+
+
+smldr/cpp/smldr.cpp
+
+v1.3 - 24/01/09
+	-	to chainload other operating systems	
+	-	to load osmosys
+	-	to parse the configuration file
+	
+
+smldr/cpp/video.cpp
+smldr/include/video.h
+
+v1.1 - 24/01/09
+	-	print functions on 80x25 textmode

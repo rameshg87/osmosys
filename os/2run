@@ -1,0 +1,1 @@
+qemu -m 32 -hda /dev/sda -d in_asm

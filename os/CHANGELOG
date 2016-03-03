@@ -1,0 +1,40 @@
+KERNEL CHANGELOG
+****************
+
+
+asm/start.s
+v1.3
+	-	gdt and idt loading routines
+	-	paging routines
+	-	isrs
+
+cpp/common.cpp
+include/common.h
+
+
+
+
+cpp/filesystem.cpp
+include/filesystem.h
+
+cpp/gdt.cpp
+include/gdt.h
+
+
+
+cpp/idt.cpp
+include/idt.h
+
+cpp/main.cpp
+
+cpp/memory.cpp
+include/memory.h
+
+cpp/process.cpp
+include/process.h
+
+cpp/storage.cpp
+include/storage.h
+
+cpp/video.cpp
+cpp/video.h
